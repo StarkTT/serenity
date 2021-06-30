@@ -1,0 +1,10 @@
+{
+  "name": "com.serenity.common",
+  "version": "0.0.1",
+  "displayName": "Serenity",
+  "description": "A common framework shared among projects",
+  "unity": "2021.1",
+  "author": {
+    "name": "Dmitry Lifenko"
+  }
+}
