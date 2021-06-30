@@ -1,0 +1,16 @@
+{
+    "name": "Serenity.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6f8935e00f5f61c48856178f7a23390f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
