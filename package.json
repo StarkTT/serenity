@@ -1,6 +1,6 @@
 {
   "name": "com.serenity.common",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "displayName": "Serenity",
   "description": "A common framework shared among projects",
   "unity": "2021.1",
