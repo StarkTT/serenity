@@ -13,13 +13,12 @@ namespace Serenity.Easings
 				return t * (2f - t);
 			}
 			else if (type == Type.InOut) {
-				t *= 2f;
-				if (t < 1f) {
-					return 0.5f * t * t;
+				if (t < 0.5f) {
+					return 2f * t * t;
 				}
 				else {
-					t -= 1f;
-					return -0.5f * (t * (t - 2f) - 1f);
+					t = -2f * t + 2f;
+					return 1f - t * t * 0.5f;
 				}
 			}
 			return t;

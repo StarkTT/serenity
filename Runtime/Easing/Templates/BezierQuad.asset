@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80ba6e91f460c054491aef2b7e864caf, type: 3}
-  m_Name: QuadraticInOut
+  m_Script: {fileID: 11500000, guid: 27dbff34cd3a3684db573484952bee7b, type: 3}
+  m_Name: BezierQuad
   m_EditorClassIdentifier: 
-  type: 2
+  coeff: 0.3
