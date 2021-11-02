@@ -8,7 +8,7 @@ namespace Serenity.UI
 		public abstract string Text { get; set; }
 		public abstract bool Interactable { get; set; }
 
-		public abstract void Listen(UnityAction listener);
-		public abstract void Forget(UnityAction listener);
+		public abstract void AddListener(UnityAction listener);
+		public abstract void RemoveListener(UnityAction listener);
 	}
 }

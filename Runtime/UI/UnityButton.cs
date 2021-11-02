@@ -16,11 +16,11 @@ namespace Serenity.UI
 			set => button.interactable = value;
 		}
 
-		public override void Listen(UnityAction listener) {
+		public override void AddListener(UnityAction listener) {
 			button.onClick.AddListener(listener);
 		}
 
-		public override void Forget(UnityAction listener) {
+		public override void RemoveListener(UnityAction listener) {
 			button.onClick.RemoveListener(listener);
 		}
 
